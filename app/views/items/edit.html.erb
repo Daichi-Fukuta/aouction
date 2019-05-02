@@ -1,4 +1,4 @@
-<h1>商品登録フォーム</h1>
+<h1>商品更新フォーム</h1>
 <%= form_with model: @item, local: true do |form| %>
   <p>
     商品名:<br>
@@ -24,5 +24,5 @@
     商品画像URL:<br>
     <%= form.text_area :image_url %>
   </p>
-  <%= form.submit '登録' %>
+  <%= form.submit '更新'  %>
 <% end %>
